@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tugas Akhir</string>
+
+    <!-- Change this to whatever the course website will be -->
+    <string name="profile_photo_file_name">profile_photo.png</string>
+    <string name="dialog_fragment_tag_photo_picker">dialog_fragment_photo_picker</string>
+    <string name="ui_profile_toast_save_text">Profile saved</string>
+    <string name="ui_profile_toast_cancel_text">Change canceled</string>
+    <string name="ui_button_save_title">Detect</string>
+    <string name="ui_button_change_title">Take Photo</string>
+    <string name="ui_settings_profile_title">User Profile</string>
+    <string name="ui_settings_profile_summary">Names, Email, Class, etc</string>
+    <string name="ui_profile_photo_title">Profile photo:</string>
+    <string name="ui_profile_photo_content_description">Your profile photo:</string>
+    <string name="ui_profile_photo_picker_title">"Select profile image"</string>
+
+    <string name="question_1">Apakah anda mengalami muntah darah ?</string>
+    <string name="question_2">Apakah kulit dan mata anda terlihat berwarna kuning ?</string>
+    <string name="question_3">Apakah kaki atau pergelangan kaki anda mengalami pembengkakan ?</string>
+    <string name="question_4">Apakah berat badan anda menurun ?</string>
+    <string name="question_5">Apakah perut anda merasa kembung ?</string>
+    <string name="question_6">Apakah anda merasa tidak nafsu makan ?</string>
+    <string name="question_7">Apakah perut anda membesar ?</string>
+    <string name="question_8">Apakah anda sering merasa mual dan muntah ?</string>
+    <string name="question_9">Apakah anda merasa pucat ?</string>
+    <string name="question_10">Apakah anda sering merasa cepat lelah ?</string>
+
+
+    <string-array name="ui_profile_photo_picker_items">
+        <item>Take picture from camera</item>
+    </string-array>
+</resources>

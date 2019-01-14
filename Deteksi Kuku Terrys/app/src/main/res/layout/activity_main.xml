@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:text="Deteksi Kelainan Kuku Terry's dan Sirosis Hati"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_launcher_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="69dp">
+
+        <requestFocus />
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_merah"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onChangePhotoClicked"
+            android:text="Ambil Foto"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btmDetect"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:onClick="onSaveClicked"
+            android:background="@drawable/button_hijau"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Deteksi"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>
